@@ -18,13 +18,17 @@ rl.question("Masukkan nama Mahasiswa: " , function(nama){
                     let grade;
                     if (nilaiAkhir >= 85){
                         grade = "A";
-                    }else if(nilaiAkhir >= 70){
+                    }
+                    else if(nilaiAkhir >= 70){
                         grade = "B"
-                    }else if (nilaiAkhir >= 60){
+                    }
+                    else if (nilaiAkhir >= 60){
                         grade = "C"
-                    }else if (nilaiAkhir >= 50){
+                    }
+                    else if (nilaiAkhir >= 50){
                         grade = "D"
-                    }else{
+                    }
+                    else{
                         grade = "E"
                     }
 
