@@ -85,7 +85,7 @@ app.put('/tiket/:id/:artis/', (req, res) => {
     res.send(`Artis dengan ID ${id} telah diperbarui dengan artis ${artis}`);
 });
 
-// DELETE - Menhapus tiket berdasarkan ID
+// DELETE - Menghapus tiket berdasarkan ID
 app.delete('/tiket/:id', (req, res) => {
     res.send(`Tiket dengan ID ${req.params.id} telah dihapus`);
 });
