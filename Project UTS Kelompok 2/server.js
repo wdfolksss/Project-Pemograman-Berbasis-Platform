@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const data = require('./data');
+const data = require('./tiket');
 
 app.use(express.json());
 
